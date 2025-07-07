@@ -1,95 +1,111 @@
-# 💼 Commission & Student Management - Java Project
+## 💼 Commission & Student Management - Java Project
 
-A beginner-friendly Java application demonstrating the use of **Object-Oriented Programming** concepts such as **Encapsulation**, **Class Design**, **Getters/Setters**, and **Conditional Logic** to calculate sales commission based on dynamic input. This mini project also includes a basic `Student` class to represent object instantiation and method execution.
+A beginner-friendly Java application showcasing the principles of **Object-Oriented Programming (OOP)** such as **Encapsulation**, **Class Design**, **Getters/Setters**, and **Conditional Logic** to calculate sales commissions. This project also includes a simple `Student` class to demonstrate object instantiation and method invocation.
 
 ---
 
 ## 🚀 Project Overview
 
-This project consists of two core modules:
-1. **Commission Calculation Module** - Calculates commission based on sales performance tiers.
-2. **Student Class** - A basic representation of object creation with a display message.
+This mini project consists of two main modules:
+
+- 📊 **Commission Calculation**  
+  Determines commission based on sales amount using tiered logic.
+
+- 🎓 **Student Class**  
+  A basic class demonstrating object creation and method invocation.
 
 ---
 
 ## 🧩 Project Structure
 
 Assigment2/
-├── Commission.java # Commission logic with encapsulated data
-├── Student.java # Simple class with a display method
-└── Main.java # Main driver class to execute the program
+├── Commission.java // Commission logic with encapsulated data
+├── Student.java // Simple class with a display method
+└── Main.java // Main driver class to execute the program
+
+
+---
 
 ## 📌 Features
 
-- 📦 Modular class design (`Commission`, `Student`, `Main`)
-- ✅ Uses Java best practices (OOP, encapsulation, setters/getters)
-- 📊 Commission tier logic:
-  - `>= ₹100000` → 10% commission
-  - `₹50000 - ₹99999` → 5% commission
-  - `₹30000 - ₹49999` → 3% commission
-  - `< ₹30000` → No commission
-- 🧪 Demonstrates basic `System.out` interaction
+- ✅ Clean, modular Java class design (`Commission`, `Student`, `Main`)
+- ✅ Adheres to OOP principles: encapsulation, abstraction
+- ✅ Commission logic with multiple sales brackets
+- ✅ Friendly output via `System.out.println`
+- ✅ Easy-to-run setup for beginners
+
+---
+
+## 💰 Commission Calculation Logic
+
+| Sales Amount Range       | Commission Rate |
+|--------------------------|------------------|
+| ≥ ₹100,000               | 10%              |
+| ₹50,000 – ₹99,999        | 5%               |
+| ₹30,000 – ₹49,999        | 3%               |
+| < ₹30,000                | 0%               |
 
 ---
 
 ## 🧪 Sample Output
+
 Student object is created
 Commission for Jash: ₹4000.0
 
-
 ---
 
-## 🛠️ How to Run
+## 🛠️ Getting Started
 
 ### 💻 Prerequisites
-- Java JDK 8 or above
-- IDE like IntelliJ IDEA, Eclipse, or VS Code
 
-### 🔧 Steps
-1. Clone the repository:
+- Java JDK 8 or higher
+- A Java IDE (e.g., IntelliJ IDEA, Eclipse, VS Code)
+
+### 🔧 Setup Instructions
+
+1. **Clone the Repository**  
     ```bash
-    git clone https://github.com/yourusername/Commission-Student-Project.git
+    git clone https://github.com/Jaswanthanks/Commission-Student-Project.git
     cd Commission-Student-Project
     ```
 
-2. Compile the Java files:
+2. **Compile the Java Files**  
     ```bash
     javac Assigment2/*.java
     ```
 
-3. Run the main class:
+3. **Run the Application**  
     ```bash
     java Assigment2.Main
     ```
 
 ---
 
-## 🧠 Concepts Demonstrated
+## 🧠 Key Concepts Demonstrated
 
-| Concept          | Description                                  |
-|------------------|----------------------------------------------|
-| Encapsulation    | Data hiding with private fields & accessors  |
-| Class & Objects  | Object creation and method invocation        |
-| Conditional Logic| Tiered commission calculation logic          |
-| Modular Design   | Separation of concerns with multiple classes |
+| 💡 Concept           | 📘 Description                                  |
+|----------------------|--------------------------------------------------|
+| Encapsulation         | Private fields with public setters/getters       |
+| Object Creation       | Instantiating objects using constructors         |
+| Conditional Logic     | Sales tier logic using if-else conditions        |
+| Modular Programming   | Clean separation of concerns across classes      |
 
 ---
 
-## 📁 Future Enhancements
+## 🚧 Future Enhancements
 
-- 🔄 Add user input functionality via Scanner
-- 📈 Visualize commission statistics
-- 💾 Persist commission data using file I/O or database
-- 🧪 Add unit tests for commission logic
+- 🔄 Accept sales data from user input (via `Scanner`)
+- 💾 Store data using file handling or a database
+- 📈 Commission statistics dashboard (console or GUI)
+- 🧪 JUnit test cases for validation
 
 ---
 
 ## 👨‍💻 Author
 
-- **Jash**  
-  📍 Chennai  
-  💼 Aspiring Java Developer  
-  🌐 [LinkedIn](https://www.linkedin.com/in/jaswanthanks/) | [GitHub](https://github.com/Jaswanthanks)
+**Jash**  
+📍 Chennai, India  
+💼 Aspiring Java Developer  
+🌐 [GitHub: Jaswanthanks](https://github.com/Jaswanthanks)
 
----
 
